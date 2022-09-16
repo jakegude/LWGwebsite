@@ -23,10 +23,38 @@ footer {
 	bottom: 10px;
 }
 
+.contact {
+	width: 300px;
+	color: #ffffff;
+	display: block;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight: bold;
+	background: none;	
+	border-radius: 1px;
+	list-style:circle;
+	border: 1px solid #ffffff;
+	border-width: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: large;
+}
+
+::placeholder {
+	color: white;
+	opacity: 0.85;
+}
+
+.contactlist {
+	padding-bottom: 30px;
+	column-count: auto;
+	text-align: center;
+}
+
 .footer {
+	font-weight: bold;
 	color: #ffffff;
 	align-items: center;
-    /* width: 100%; */
 }
 
 .navbar li {
